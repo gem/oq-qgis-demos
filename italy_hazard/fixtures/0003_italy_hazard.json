@@ -1,0 +1,178 @@
+[
+{
+    "model": "webmap.map",
+    "pk": 2,
+    "fields": {
+        "created_by": 1,
+        "created_date": "2019-03-11T14:34:24.818Z",
+        "changed_by": 1,
+        "changed_date": "2019-03-11T15:03:47.047Z",
+        "name": "Italy hazard map",
+        "slug": "italy-hazard-map",
+        "order": 2,
+        "project": 2,
+        "bounds": "",
+        "limit_to_extent": false,
+        "center": "41.16553,13.18717",
+        "zoom_default": 6,
+        "zoom_min": 4,
+        "zoom_max": 15,
+        "zoom_control": true,
+        "scale": true,
+        "geolocator": true,
+        "measures": true,
+        "sidebar": "show",
+        "snipping_tool": false,
+        "printable": false,
+        "published": true,
+        "auto_thumbnail": true,
+        "legend_font_size": 10,
+        "custom_legend": "",
+        "description": "",
+        "notes": "",
+        "custom_html": "",
+        "thumbnail": "thumbs/italy-hazard-map.png",
+        "logo": null,
+        "watermark": null,
+        "tags": []
+    }
+},
+{
+    "model": "webmap.mapbaselayer",
+    "pk": 3,
+    "fields": {
+        "map": 2,
+        "layer": 5,
+        "order": 1
+    }
+},
+{
+    "model": "webmap.mapbaselayer",
+    "pk": 4,
+    "fields": {
+        "map": 2,
+        "layer": 1,
+        "order": 2
+    }
+},
+{
+    "model": "webmap.maplayer",
+    "pk": 2,
+    "fields": {
+        "map": 2,
+        "layer": 13,
+        "order": 2,
+        "enabled": true,
+        "in_selector": true,
+        "in_legend": false,
+        "interactivity_type": 1,
+        "group": "Hazard curves and UHS",
+        "excl_group": 1
+    }
+},
+{
+    "model": "webmap.maplayer",
+    "pk": 3,
+    "fields": {
+        "map": 2,
+        "layer": 14,
+        "order": 6,
+        "enabled": false,
+        "in_selector": true,
+        "in_legend": true,
+        "interactivity_type": 1,
+        "group": "Hazard map",
+        "excl_group": 2
+    }
+},
+{
+    "model": "webmap.maplayer",
+    "pk": 4,
+    "fields": {
+        "map": 2,
+        "layer": 15,
+        "order": 7,
+        "enabled": false,
+        "in_selector": true,
+        "in_legend": true,
+        "interactivity_type": 1,
+        "group": "Hazard map",
+        "excl_group": 2
+    }
+},
+{
+    "model": "webmap.maplayer",
+    "pk": 5,
+    "fields": {
+        "map": 2,
+        "layer": 16,
+        "order": 8,
+        "enabled": false,
+        "in_selector": true,
+        "in_legend": true,
+        "interactivity_type": 1,
+        "group": "Hazard map",
+        "excl_group": 2
+    }
+},
+{
+    "model": "webmap.maplayer",
+    "pk": 6,
+    "fields": {
+        "map": 2,
+        "layer": 17,
+        "order": 3,
+        "enabled": true,
+        "in_selector": true,
+        "in_legend": true,
+        "interactivity_type": 1,
+        "group": "Hazard map",
+        "excl_group": 2
+    }
+},
+{
+    "model": "webmap.maplayer",
+    "pk": 7,
+    "fields": {
+        "map": 2,
+        "layer": 18,
+        "order": 4,
+        "enabled": false,
+        "in_selector": true,
+        "in_legend": true,
+        "interactivity_type": 1,
+        "group": "Hazard map",
+        "excl_group": 2
+    }
+},
+{
+    "model": "webmap.maplayer",
+    "pk": 8,
+    "fields": {
+        "map": 2,
+        "layer": 19,
+        "order": 5,
+        "enabled": false,
+        "in_selector": true,
+        "in_legend": true,
+        "interactivity_type": 1,
+        "group": "Hazard map",
+        "excl_group": 2
+    }
+},
+{
+    "model": "webmap.maplayer",
+    "pk": 9,
+    "fields": {
+        "map": 2,
+        "layer": 20,
+        "order": 1,
+        "enabled": false,
+        "in_selector": true,
+        "in_legend": true,
+        "interactivity_type": 1,
+        "group": "Hazard curves and UHS",
+        "excl_group": 1
+    }
+}
+]

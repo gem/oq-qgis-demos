@@ -1,0 +1,105 @@
+[
+{
+    "model": "portal.siteconfiguration",
+    "pk": 1,
+    "fields": {
+        "site_name": "Map viewer",
+        "site_logo": "site/gem_logo.png",
+        "site_author": "GEM Foundation",
+        "about": "",
+        "footer": "<p><a href=\"https://gem.foundation\">GEM Foundation</a> and Partners.\r\nThis is a demo site. Data not suitable for production.</p>",
+        "show_copyright": true,
+        "common_js": "common/js/common.js",
+        "common_css": "",
+        "map_zoom_default": 5,
+        "map_zoom_min": 4,
+        "map_zoom_max": 15,
+        "map_zoom_control": true,
+        "map_scale": true,
+        "map_geolocator": true,
+        "map_measures": true,
+        "map_legend_font_size": 10,
+        "map_printable": false,
+        "print_legend_scaling": 50,
+        "print_logo_scaling": 30,
+        "global_watermark": null
+    }
+},
+
+{
+    "model": "portal.organization",
+    "pk": 1,
+    "fields": {
+        "name": "GEM Foundation",
+        "website": "https://www.globalquakemodel.org",
+        "address": "Via Ferrata, 1",
+        "city": "Pavia",
+        "country": "IT",
+        "email": "info@globalquakemodel.org",
+        "description": "",
+        "created_by": 1,
+        "created_date": "2018-09-19T16:42:45.190Z",
+        "changed_by": 1,
+        "changed_date": "2018-09-19T16:42:45.190Z"
+    }
+},
+{
+    "model": "portal.contributor",
+    "pk": 1,
+    "fields": {
+        "created_by": 1,
+        "created_date": "2018-09-21T16:01:22.687Z",
+        "changed_by": 1,
+        "changed_date": "2018-09-21T16:01:22.687Z",
+        "organization": 1,
+        "email": "daniele@openquake.org",
+        "name": "Daniele Vigan\u00f2",
+        "position": "Sysadmin",
+        "description": ""
+    }
+},
+{
+    "model": "portal.baseoverlayimage",
+    "pk": 1,
+    "fields": {
+        "created_by": 1,
+        "created_date": "2018-09-19T16:42:32.113Z",
+        "changed_by": 1,
+        "changed_date": "2018-09-19T16:42:32.113Z",
+        "description": ""
+    }
+},
+{
+    "model": "portal.baseoverlayimage",
+    "pk": 2,
+    "fields": {
+        "created_by": 1,
+        "created_date": "2018-09-19T16:42:45.190Z",
+        "changed_by": 1,
+        "changed_date": "2018-09-19T16:42:45.190Z",
+        "description": ""
+    }
+},
+{
+    "model": "portal.logo",
+    "pk": 1,
+    "fields": {
+        "name": "OpenQuake",
+        "slug": "openquake",
+        "image": "logo/OQ.png",
+        "opacity": 100,
+        "url": "https://github.com/gem/oq-engine",
+        "position": "bottomleft"
+    }
+},
+{
+    "model": "portal.watermark",
+    "pk": 2,
+    "fields": {
+        "name": "GEM white",
+        "slug": "gem-white",
+        "image": "watermarks/gem_w.png",
+        "opacity": 30
+    }
+}
+]
