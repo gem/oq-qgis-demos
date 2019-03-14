@@ -1,0 +1,290 @@
+[
+{
+    "model": "webmap.layer",
+    "pk": 13,
+    "fields": {
+        "created_by": 1,
+        "created_date": "2019-03-14T09:21:57.091Z",
+        "changed_by": 1,
+        "changed_date": "2019-03-14T09:21:57.250Z",
+        "name": "Hazard map (max)",
+        "uuid": "11ce3d53-013b-4fc0-8e2c-0bfa9b88408e",
+        "url": "/mapproxy/nepal_hazard/wmts/hazard-map-max/webmercator/{z}/{x}/{y}.png",
+        "layer_type": 1,
+        "coverage": "80.08881,26.4125,88.11382,30.36117",
+        "srid": "4326",
+        "project": 2,
+        "order": 4,
+        "group": "",
+        "token": "",
+        "copyright": "",
+        "zoom_min": 2,
+        "zoom_max": 15,
+        "basemap": false,
+        "printable": true,
+        "notes": "",
+        "license": null
+    }
+},
+{
+    "model": "webmap.layer",
+    "pk": 14,
+    "fields": {
+        "created_by": 1,
+        "created_date": "2019-03-14T09:21:57.110Z",
+        "changed_by": 1,
+        "changed_date": "2019-03-14T09:21:57.237Z",
+        "name": "Hazard map (mean)",
+        "uuid": "37ab9172-e79f-4e63-a5ca-add0e2411c53",
+        "url": "/mapproxy/nepal_hazard/wmts/hazard-map-mean/webmercator/{z}/{x}/{y}.png",
+        "layer_type": 1,
+        "coverage": "80.08881,26.4125,88.11382,30.36117",
+        "srid": "4326",
+        "project": 2,
+        "order": 3,
+        "group": "",
+        "token": "",
+        "copyright": "",
+        "zoom_min": 2,
+        "zoom_max": 15,
+        "basemap": false,
+        "printable": true,
+        "notes": "",
+        "license": null
+    }
+},
+{
+    "model": "webmap.layer",
+    "pk": 15,
+    "fields": {
+        "created_by": 1,
+        "created_date": "2019-03-14T09:21:57.132Z",
+        "changed_by": 1,
+        "changed_date": "2019-03-14T09:21:57.200Z",
+        "name": "Hazard curves",
+        "uuid": "e6a774f8-38cf-4516-a1b7-77197aa61f73",
+        "url": "/mapproxy/nepal_hazard/wmts/hazard-curves/webmercator/{z}/{x}/{y}.png",
+        "layer_type": 1,
+        "coverage": "80.08881,26.4125,88.11382,30.36117",
+        "srid": "4326",
+        "project": 2,
+        "order": 0,
+        "group": "",
+        "token": "",
+        "copyright": "",
+        "zoom_min": 2,
+        "zoom_max": 15,
+        "basemap": false,
+        "printable": false,
+        "notes": "",
+        "license": null
+    }
+},
+{
+    "model": "webmap.layer",
+    "pk": 16,
+    "fields": {
+        "created_by": 1,
+        "created_date": "2019-03-14T09:21:57.154Z",
+        "changed_by": 1,
+        "changed_date": "2019-03-14T09:21:57.224Z",
+        "name": "UHS PoE 0.02",
+        "uuid": "0547a9d3-e5cc-444f-af18-f369c4674619",
+        "url": "/mapproxy/nepal_hazard/wmts/uhs-poe-002/webmercator/{z}/{x}/{y}.png",
+        "layer_type": 1,
+        "coverage": "80.08881,26.4125,88.11382,30.36117",
+        "srid": "4326",
+        "project": 2,
+        "order": 2,
+        "group": "",
+        "token": "",
+        "copyright": "",
+        "zoom_min": 2,
+        "zoom_max": 15,
+        "basemap": false,
+        "printable": false,
+        "notes": "",
+        "license": null
+    }
+},
+{
+    "model": "webmap.layer",
+    "pk": 17,
+    "fields": {
+        "created_by": 1,
+        "created_date": "2019-03-14T09:21:57.177Z",
+        "changed_by": 1,
+        "changed_date": "2019-03-14T09:21:57.212Z",
+        "name": "UHS PoE 0.01",
+        "uuid": "18a742a4-f30b-4824-89d5-f4661859a851",
+        "url": "/mapproxy/nepal_hazard/wmts/uhs-poe-001/webmercator/{z}/{x}/{y}.png",
+        "layer_type": 1,
+        "coverage": "80.08881,26.4125,88.11382,30.36117",
+        "srid": "4326",
+        "project": 2,
+        "order": 1,
+        "group": "",
+        "token": "",
+        "copyright": "",
+        "zoom_min": 2,
+        "zoom_max": 15,
+        "basemap": false,
+        "printable": false,
+        "notes": "",
+        "license": null
+    }
+},
+{
+    "model": "webmap.map",
+    "pk": 2,
+    "fields": {
+        "created_by": 1,
+        "created_date": "2019-03-14T09:25:05.960Z",
+        "changed_by": 1,
+        "changed_date": "2019-03-14T09:26:44.445Z",
+        "name": "Nepal Hazard data",
+        "slug": "nepal-hazard-data",
+        "order": 2,
+        "project": 2,
+        "bounds": "",
+        "limit_to_extent": false,
+        "center": "28.39523,84.13204",
+        "zoom_default": 8,
+        "zoom_min": 4,
+        "zoom_max": 15,
+        "zoom_control": true,
+        "scale": true,
+        "geolocator": true,
+        "measures": true,
+        "sidebar": "show",
+        "snipping_tool": false,
+        "printable": false,
+        "published": true,
+        "auto_thumbnail": true,
+        "legend_font_size": 10,
+        "custom_legend": "",
+        "description": "",
+        "notes": "",
+        "custom_html": "",
+        "thumbnail": "thumbs/nepal-hazard-data.png",
+        "logo": 1,
+        "watermark": 2,
+        "tags": []
+    }
+},
+{
+    "model": "webmap.maplayer",
+    "pk": 2,
+    "fields": {
+        "map": 2,
+        "layer": 15,
+        "order": 1,
+        "enabled": true,
+        "in_selector": true,
+        "in_legend": false,
+        "interactivity_type": 1,
+        "group": "Hazard curves and UHS",
+        "excl_group": 1
+    }
+},
+{
+    "model": "webmap.maplayer",
+    "pk": 3,
+    "fields": {
+        "map": 2,
+        "layer": 17,
+        "order": 2,
+        "enabled": false,
+        "in_selector": true,
+        "in_legend": false,
+        "interactivity_type": 1,
+        "group": "Hazard curves and UHS",
+        "excl_group": 1
+    }
+},
+{
+    "model": "webmap.maplayer",
+    "pk": 4,
+    "fields": {
+        "map": 2,
+        "layer": 16,
+        "order": 3,
+        "enabled": false,
+        "in_selector": true,
+        "in_legend": false,
+        "interactivity_type": 1,
+        "group": "Hazard curves and UHS",
+        "excl_group": 1
+    }
+},
+{
+    "model": "webmap.maplayer",
+    "pk": 5,
+    "fields": {
+        "map": 2,
+        "layer": 14,
+        "order": 4,
+        "enabled": true,
+        "in_selector": true,
+        "in_legend": true,
+        "interactivity_type": 1,
+        "group": "Hazard maps",
+        "excl_group": 2
+    }
+},
+{
+    "model": "webmap.maplayer",
+    "pk": 6,
+    "fields": {
+        "map": 2,
+        "layer": 13,
+        "order": 5,
+        "enabled": false,
+        "in_selector": true,
+        "in_legend": true,
+        "interactivity_type": 1,
+        "group": "Hazard maps",
+        "excl_group": 2
+    }
+},
+{
+    "model": "webmap.mapbaselayer",
+    "pk": 3,
+    "fields": {
+        "map": 2,
+        "layer": 5,
+        "order": 1
+    }
+},
+{
+    "model": "webmap.mapbaselayer",
+    "pk": 4,
+    "fields": {
+        "map": 2,
+        "layer": 1,
+        "order": 2
+    }
+},
+{
+    "model": "mapserver.project",
+    "pk": 2,
+    "fields": {
+        "created_by": 1,
+        "created_date": "2019-03-14T09:21:56.999Z",
+        "changed_by": 1,
+        "changed_date": "2019-03-14T09:21:56.999Z",
+        "name": "nepal_hazard",
+        "uploaded_file": "uploads/projects/nepal_hazard.zip",
+        "project_file": "nepal_hazard.qgs",
+        "published": true,
+        "downloadable": false,
+        "wms": false,
+        "wmts": false,
+        "tms": false,
+        "wfs": false,
+        "checksum": "62daa5179320cfb92762f81a866044edca7c324f",
+        "extent": "25.97231,79.8882,30.80136,88.31444",
+        "notes": ""
+    }
+}
+]
