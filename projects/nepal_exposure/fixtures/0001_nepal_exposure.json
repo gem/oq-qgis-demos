@@ -1,0 +1,98 @@
+[
+{
+    "model": "webmap.map",
+    "pk": 1,
+    "fields": {
+        "created_by": 1,
+        "created_date": "2018-09-19T16:00:55.458Z",
+        "changed_by": 1,
+        "changed_date": "2018-09-19T16:08:09.148Z",
+        "name": "Nepal Exposure data",
+        "slug": "nepal-exposure-data",
+        "project": 1,
+        "order": 1,
+        "bounds": "",
+        "limit_to_extent": false,
+        "center": "28.39523,84.13204",
+        "zoom_default": 8,
+        "zoom_min": 4,
+        "zoom_max": 15,
+        "zoom_control": true,
+        "scale": true,
+        "geolocator": true,
+        "measures": true,
+        "printable": false,
+        "published": true,
+        "auto_thumbnail": true,
+        "legend_font_size": 10,
+        "custom_legend": "",
+        "notes": "",
+        "custom_html": "",
+        "thumbnail": "thumbs/nepal-exposure-data.png",
+        "logo": 1,
+        "watermark": 2
+    }
+},
+{
+    "model": "webmap.maplayer",
+    "pk": 1,
+    "fields": {
+        "map": 1,
+        "layer": 12,
+        "order": 7,
+        "enabled": true,
+        "in_selector": false,
+        "in_legend": true,
+        "interactivity_type": 2,
+        "group": "",
+        "excl_group": null
+    }
+},
+{
+    "model": "webmap.mapbaselayer",
+    "pk": 1,
+    "fields": {
+        "map": 1,
+        "layer": 5,
+        "order": 1
+    }
+},
+{
+    "model": "webmap.mapbaselayer",
+    "pk": 2,
+    "fields": {
+        "map": 1,
+        "layer": 1,
+        "order": 2
+    }
+},
+{
+    "model": "mapserver.projectmetadata",
+    "pk": 12,
+    "fields": {
+        "project": 1
+    }
+},
+{
+    "model": "portal.metadata",
+    "pk": 12,
+    "fields": {
+        "abstract": "<p><a href=\"https://github.com/gem/oq-engine\">OpenQuake Engine</a> demo for Nepal.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer massa dolor, laoreet id lectus a, ullamcorper ultrices sem. Cras id porttitor purus. Fusce mattis tempor mauris non sodales. Pellentesque a dapibus sem, quis dictum arcu. Nunc vestibulum libero id erat vestibulum aliquet. Integer nec elit at enim dapibus molestie. Nam ornare urna at ornare scelerisque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ac dolor vitae enim molestie pretium. Maecenas sed urna ultricies, cursus nunc id, lacinia lorem. Nunc non sodales nulla. Donec ornare, dolor eget efficitur aliquam, turpis quam sollicitudin mauris, quis suscipit mi tellus sed enim. Sed porttitor condimentum lacus, in faucibus ipsum hendrerit vestibulum. Ut fringilla orci at sem dapibus, ut interdum tellus malesuada.</p>",
+        "edition": "",
+        "purpose": "",
+        "restrictions": "",
+        "temporal_extent_from": null,
+        "temporal_extent_to": null,
+        "coverage": "NP",
+        "license": 2,
+        "publication_date": null,
+        "contact": 1,
+        "doi": "",
+        "xml": "",
+        "categories": [
+            2,
+            3
+        ]
+    }
+}
+]
