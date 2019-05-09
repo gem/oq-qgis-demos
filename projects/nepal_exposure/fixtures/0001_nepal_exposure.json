@@ -10,7 +10,7 @@
         "name": "Nepal Exposure data",
         "slug": "nepal-exposure-data",
         "project": 1,
-        "order": 1,
+        "order": 2,
         "bounds": "",
         "limit_to_extent": false,
         "center": "28.39523,84.13204",

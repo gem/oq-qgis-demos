@@ -144,7 +144,7 @@
         "changed_date": "2019-03-14T09:26:44.445Z",
         "name": "Nepal Hazard data",
         "slug": "nepal-hazard-data",
-        "order": 2,
+        "order": 1,
         "project": 2,
         "bounds": "",
         "limit_to_extent": false,
