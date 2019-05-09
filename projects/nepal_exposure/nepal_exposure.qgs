@@ -500,6 +500,7 @@ def my_form_open(dialog, layer, feature):
       <ProjectCrs type="QString">EPSG:3857</ProjectCrs>
       <ProjectionsEnabled type="int">1</ProjectionsEnabled>
     </SpatialRefSys>
+    <WMSAddWktGeometry type="bool">true</WMSAddWktGeometry>
   </properties>
   <visibility-presets></visibility-presets>
   <transformContext></transformContext>
