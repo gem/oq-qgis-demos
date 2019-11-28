@@ -15,7 +15,7 @@
         "limit_to_extent": false,
         "center": "28.39523,84.13204",
         "zoom_default": 8,
-        "zoom_min": 4,
+        "zoom_min": 2,
         "zoom_max": 15,
         "zoom_control": true,
         "scale": true,
