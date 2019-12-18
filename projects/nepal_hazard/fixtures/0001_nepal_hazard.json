@@ -43,10 +43,11 @@
     "fields": {
         "map": 2,
         "layer": 15,
-        "order": 1,
-        "enabled": true,
+        "order": 3,
+        "enabled": false,
         "in_selector": true,
         "in_legend": false,
+        "in_thumbnail": false,
         "interactivity_type": 1,
         "group": "Hazard curves and UHS",
         "excl_group": 1
@@ -58,13 +59,14 @@
     "fields": {
         "map": 2,
         "layer": 17,
-        "order": 2,
+        "order": 5,
         "enabled": false,
         "in_selector": true,
-        "in_legend": false,
+        "in_legend": true,
+        "in_thumbnail": false,
         "interactivity_type": 1,
-        "group": "Hazard curves and UHS",
-        "excl_group": 1
+        "group": "Hazard maps",
+        "excl_group": 2
     }
 },
 {
@@ -73,13 +75,14 @@
     "fields": {
         "map": 2,
         "layer": 16,
-        "order": 3,
-        "enabled": false,
+        "order": 4,
+        "enabled": true,
         "in_selector": true,
-        "in_legend": false,
+        "in_legend": true,
+        "in_thumbnail": true,
         "interactivity_type": 1,
-        "group": "Hazard curves and UHS",
-        "excl_group": 1
+        "group": "Hazard maps",
+        "excl_group": 2
     }
 },
 {
@@ -88,13 +91,14 @@
     "fields": {
         "map": 2,
         "layer": 14,
-        "order": 4,
-        "enabled": true,
+        "order": 2,
+        "enabled": false,
         "in_selector": true,
-        "in_legend": true,
+        "in_legend": false,
+        "in_thumbnail": false,
         "interactivity_type": 1,
-        "group": "Hazard maps",
-        "excl_group": 2
+        "group": "Hazard curves and UHS",
+        "excl_group": 1
     }
 },
 {
@@ -103,13 +107,14 @@
     "fields": {
         "map": 2,
         "layer": 13,
-        "order": 5,
-        "enabled": false,
+        "order": 1,
+        "enabled": true,
         "in_selector": true,
-        "in_legend": true,
+        "in_legend": false,
+        "in_thumbnail": false,
         "interactivity_type": 1,
-        "group": "Hazard maps",
-        "excl_group": 2
+        "group": "Hazard curves and UHS",
+        "excl_group": 1
     }
 },
 {
