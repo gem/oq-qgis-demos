@@ -1,16 +1,21 @@
 [
 {
     "model": "webmap.map",
-    "pk": 2,
     "fields": {
-        "created_by": 1,
+        "created_by": [
+            "admin"
+        ],
         "created_date": "2019-03-14T09:25:05.960Z",
-        "changed_by": 1,
-        "changed_date": "2019-03-14T09:26:44.445Z",
+        "changed_by": [
+            "admin"
+        ],
+        "changed_date": "2020-05-08T12:51:19.874Z",
         "name": "Nepal Hazard data",
         "slug": "nepal-hazard-data",
         "order": 1,
-        "project": 2,
+        "project": [
+            "nepal_hazard"
+        ],
         "bounds": "",
         "limit_to_extent": false,
         "center": "28.39523,84.13204",
@@ -21,140 +26,363 @@
         "scale": true,
         "geolocator": true,
         "measures": true,
-        "sidebar": "show",
+        "legend_font_size": 10,
         "snipping_tool": false,
         "printable": false,
+        "sidebar": "show",
         "published": true,
         "auto_thumbnail": true,
-        "legend_font_size": 10,
         "custom_legend": "",
         "description": "",
         "notes": "",
         "custom_html": "",
         "thumbnail": "thumbs/nepal-hazard-data.png",
-        "logo": 1,
-        "watermark": 2,
+        "logo": [
+            "openquake"
+        ],
+        "watermark": [
+            "gem-white"
+        ],
         "tags": []
     }
 },
 {
-    "model": "webmap.maplayer",
-    "pk": 2,
+    "model": "mapserver.projectmetadata",
     "fields": {
-        "map": 2,
-        "layer": 15,
+        "metadata_ptr": [
+            "3331d4da-8e72-432d-8b33-bf429883c9a9"
+        ],
+        "project": [
+            "nepal_hazard"
+        ],
+        "categories": [],
+        "contributors": []
+    }
+},
+{
+    "model": "portal.metadata",
+    "fields": {
+        "uuid": "3331d4da-8e72-432d-8b33-bf429883c9a9",
+        "abstract": "",
+        "citation": "",
+        "edition": "",
+        "purpose": "",
+        "restrictions": "",
+        "legal": "",
+        "temporal_extent_from": null,
+        "temporal_extent_to": null,
+        "coverage": "",
+        "license": null,
+        "publication_date": "2019-03-13",
+        "contact": null,
+        "doi": "",
+        "xml": "",
+        "categories": [],
+        "contributors": []
+    }
+},
+{
+    "model": "portal.metadata",
+    "fields": {
+        "uuid": "482eb5dc-3344-40ab-bf76-1be8ad2a8608",
+        "abstract": "",
+        "citation": "",
+        "edition": "",
+        "purpose": "",
+        "restrictions": "",
+        "legal": "",
+        "temporal_extent_from": null,
+        "temporal_extent_to": null,
+        "coverage": "",
+        "license": null,
+        "publication_date": null,
+        "contact": null,
+        "doi": "",
+        "xml": "",
+        "categories": [],
+        "contributors": []
+    }
+},
+{
+    "model": "portal.metadata",
+    "fields": {
+        "uuid": "4c492f9f-4f9d-46ce-996e-00615dd55163",
+        "abstract": "",
+        "citation": "",
+        "edition": "",
+        "purpose": "",
+        "restrictions": "",
+        "legal": "",
+        "temporal_extent_from": null,
+        "temporal_extent_to": null,
+        "coverage": "",
+        "license": null,
+        "publication_date": null,
+        "contact": null,
+        "doi": "",
+        "xml": "",
+        "categories": [],
+        "contributors": []
+    }
+},
+{
+    "model": "portal.metadata",
+    "fields": {
+        "uuid": "cb97a306-dfb9-4a53-8c49-724e34757869",
+        "abstract": "",
+        "citation": "",
+        "edition": "",
+        "purpose": "",
+        "restrictions": "",
+        "legal": "",
+        "temporal_extent_from": null,
+        "temporal_extent_to": null,
+        "coverage": "",
+        "license": null,
+        "publication_date": null,
+        "contact": null,
+        "doi": "",
+        "xml": "",
+        "categories": [],
+        "contributors": []
+    }
+},
+{
+    "model": "portal.metadata",
+    "fields": {
+        "uuid": "fe5b8196-8720-487b-a0d1-66caddd2cc67",
+        "abstract": "",
+        "citation": "",
+        "edition": "",
+        "purpose": "",
+        "restrictions": "",
+        "legal": "",
+        "temporal_extent_from": null,
+        "temporal_extent_to": null,
+        "coverage": "",
+        "license": null,
+        "publication_date": null,
+        "contact": null,
+        "doi": "",
+        "xml": "",
+        "categories": [],
+        "contributors": []
+    }
+},
+{
+    "model": "portal.metadata",
+    "fields": {
+        "uuid": "c67ac94c-d317-468f-b13a-8d1c228496e8",
+        "abstract": "",
+        "citation": "",
+        "edition": "",
+        "purpose": "",
+        "restrictions": "",
+        "legal": "",
+        "temporal_extent_from": null,
+        "temporal_extent_to": null,
+        "coverage": "",
+        "license": null,
+        "publication_date": null,
+        "contact": null,
+        "doi": "",
+        "xml": "",
+        "categories": [],
+        "contributors": []
+    }
+},
+{
+    "model": "webmap.layermetadata",
+    "fields": {
+        "metadata_ptr": [
+            "482eb5dc-3344-40ab-bf76-1be8ad2a8608"
+        ],
+        "layer": [
+            "nepal_hazard - Hazard curves"
+        ],
+        "categories": [],
+        "contributors": []
+    }
+},
+{
+    "model": "webmap.layermetadata",
+    "fields": {
+        "metadata_ptr": [
+            "4c492f9f-4f9d-46ce-996e-00615dd55163"
+        ],
+        "layer": [
+            "nepal_hazard - UHS PoE 0.01"
+        ],
+        "categories": [],
+        "contributors": []
+    }
+},
+{
+    "model": "webmap.layermetadata",
+    "fields": {
+        "metadata_ptr": [
+            "cb97a306-dfb9-4a53-8c49-724e34757869"
+        ],
+        "layer": [
+            "nepal_hazard - UHS PoE 0.02"
+        ],
+        "categories": [],
+        "contributors": []
+    }
+},
+{
+    "model": "webmap.layermetadata",
+    "fields": {
+        "metadata_ptr": [
+            "fe5b8196-8720-487b-a0d1-66caddd2cc67"
+        ],
+        "layer": [
+            "nepal_hazard - Hazard map (mean)"
+        ],
+        "categories": [],
+        "contributors": []
+    }
+},
+{
+    "model": "webmap.layermetadata",
+    "fields": {
+        "metadata_ptr": [
+            "c67ac94c-d317-468f-b13a-8d1c228496e8"
+        ],
+        "layer": [
+            "nepal_hazard - Hazard map (max)"
+        ],
+        "categories": [],
+        "contributors": []
+    }
+},
+{
+    "model": "webmap.maplayer",
+    "fields": {
+        "map": [
+            "nepal-hazard-data"
+        ],
+        "layer": [
+            "nepal_hazard - UHS PoE 0.02"
+        ],
         "order": 3,
         "enabled": false,
         "in_selector": true,
         "in_legend": false,
         "in_thumbnail": false,
-        "interactivity_type": 1,
+        "interactivity_type": [
+            "HTML table"
+        ],
         "group": "Hazard curves and UHS",
         "excl_group": 1
     }
 },
 {
     "model": "webmap.maplayer",
-    "pk": 3,
     "fields": {
-        "map": 2,
-        "layer": 17,
+        "map": [
+            "nepal-hazard-data"
+        ],
+        "layer": [
+            "nepal_hazard - Hazard map (max)"
+        ],
         "order": 5,
         "enabled": false,
         "in_selector": true,
         "in_legend": true,
         "in_thumbnail": false,
-        "interactivity_type": 1,
+        "interactivity_type": [
+            "HTML table"
+        ],
         "group": "Hazard maps",
         "excl_group": 2
     }
 },
 {
     "model": "webmap.maplayer",
-    "pk": 4,
     "fields": {
-        "map": 2,
-        "layer": 16,
+        "map": [
+            "nepal-hazard-data"
+        ],
+        "layer": [
+            "nepal_hazard - Hazard map (mean)"
+        ],
         "order": 4,
         "enabled": true,
         "in_selector": true,
         "in_legend": true,
         "in_thumbnail": true,
-        "interactivity_type": 1,
+        "interactivity_type": [
+            "HTML table"
+        ],
         "group": "Hazard maps",
         "excl_group": 2
     }
 },
 {
     "model": "webmap.maplayer",
-    "pk": 5,
     "fields": {
-        "map": 2,
-        "layer": 14,
+        "map": [
+            "nepal-hazard-data"
+        ],
+        "layer": [
+            "nepal_hazard - UHS PoE 0.01"
+        ],
         "order": 2,
         "enabled": false,
         "in_selector": true,
         "in_legend": false,
         "in_thumbnail": false,
-        "interactivity_type": 1,
+        "interactivity_type": [
+            "HTML table"
+        ],
         "group": "Hazard curves and UHS",
         "excl_group": 1
     }
 },
 {
     "model": "webmap.maplayer",
-    "pk": 6,
     "fields": {
-        "map": 2,
-        "layer": 13,
+        "map": [
+            "nepal-hazard-data"
+        ],
+        "layer": [
+            "nepal_hazard - Hazard curves"
+        ],
         "order": 1,
         "enabled": true,
         "in_selector": true,
         "in_legend": false,
         "in_thumbnail": false,
-        "interactivity_type": 1,
+        "interactivity_type": [
+            "HTML table"
+        ],
         "group": "Hazard curves and UHS",
         "excl_group": 1
     }
 },
 {
     "model": "webmap.mapbaselayer",
-    "pk": 3,
     "fields": {
-        "map": 2,
-        "layer": 5,
+        "map": [
+            "nepal-hazard-data"
+        ],
+        "layer": [
+            "Stamen Terrain"
+        ],
         "order": 1
     }
 },
 {
     "model": "webmap.mapbaselayer",
-    "pk": 4,
     "fields": {
-        "map": 2,
-        "layer": 1,
+        "map": [
+            "nepal-hazard-data"
+        ],
+        "layer": [
+            "OpenStreetMap"
+        ],
         "order": 2
-    }
-},
-{
-    "model": "mapserver.project",
-    "pk": 2,
-    "fields": {
-        "created_by": 1,
-        "created_date": "2019-03-14T09:21:56.999Z",
-        "changed_by": 1,
-        "changed_date": "2019-03-14T09:21:56.999Z",
-        "name": "nepal_hazard",
-        "uploaded_file": "uploads/projects/nepal_hazard.zip",
-        "project_file": "nepal_hazard.qgs",
-        "published": true,
-        "downloadable": false,
-        "wms": false,
-        "wmts": false,
-        "tms": false,
-        "wfs": false,
-        "checksum": "62daa5179320cfb92762f81a866044edca7c324f",
-        "extent": "25.97231,79.8882,30.80136,88.31444",
-        "notes": ""
     }
 }
 ]
