@@ -9,7 +9,7 @@
         "changed_by": [
             "admin"
         ],
-        "changed_date": "2020-05-08T12:51:19.874Z",
+        "changed_date": "2020-05-08T15:26:06.624Z",
         "name": "Nepal Hazard data",
         "slug": "nepal-hazard-data",
         "order": 1,
@@ -47,22 +47,9 @@
     }
 },
 {
-    "model": "mapserver.projectmetadata",
-    "fields": {
-        "metadata_ptr": [
-            "3331d4da-8e72-432d-8b33-bf429883c9a9"
-        ],
-        "project": [
-            "nepal_hazard"
-        ],
-        "categories": [],
-        "contributors": []
-    }
-},
-{
     "model": "portal.metadata",
     "fields": {
-        "uuid": "3331d4da-8e72-432d-8b33-bf429883c9a9",
+        "uuid": "df9901d9-9fc9-42b6-8d97-88099a107767",
         "abstract": "",
         "citation": "",
         "edition": "",
@@ -84,7 +71,7 @@
 {
     "model": "portal.metadata",
     "fields": {
-        "uuid": "482eb5dc-3344-40ab-bf76-1be8ad2a8608",
+        "uuid": "cbfa38fb-d7f0-46e2-8779-aad1750173a6",
         "abstract": "",
         "citation": "",
         "edition": "",
@@ -106,7 +93,7 @@
 {
     "model": "portal.metadata",
     "fields": {
-        "uuid": "4c492f9f-4f9d-46ce-996e-00615dd55163",
+        "uuid": "78374a5a-ffec-431b-a053-dd6754cc2545",
         "abstract": "",
         "citation": "",
         "edition": "",
@@ -128,7 +115,7 @@
 {
     "model": "portal.metadata",
     "fields": {
-        "uuid": "cb97a306-dfb9-4a53-8c49-724e34757869",
+        "uuid": "d543c192-59a1-4cc0-9a2c-553b3b96bf9d",
         "abstract": "",
         "citation": "",
         "edition": "",
@@ -150,7 +137,7 @@
 {
     "model": "portal.metadata",
     "fields": {
-        "uuid": "fe5b8196-8720-487b-a0d1-66caddd2cc67",
+        "uuid": "bca47294-31ef-4d6e-9ca7-650c595ee80e",
         "abstract": "",
         "citation": "",
         "edition": "",
@@ -172,7 +159,7 @@
 {
     "model": "portal.metadata",
     "fields": {
-        "uuid": "c67ac94c-d317-468f-b13a-8d1c228496e8",
+        "uuid": "0eb5a0cb-36e7-41b6-821e-fbef119cb722",
         "abstract": "",
         "citation": "",
         "edition": "",
@@ -187,6 +174,19 @@
         "contact": null,
         "doi": "",
         "xml": "",
+        "categories": [],
+        "contributors": []
+    }
+},
+{
+    "model": "mapserver.projectmetadata",
+    "fields": {
+        "metadata_ptr": [
+            "df9901d9-9fc9-42b6-8d97-88099a107767"
+        ],
+        "project": [
+            "nepal_hazard"
+        ],
         "categories": [],
         "contributors": []
     }
@@ -195,7 +195,7 @@
     "model": "webmap.layermetadata",
     "fields": {
         "metadata_ptr": [
-            "482eb5dc-3344-40ab-bf76-1be8ad2a8608"
+            "cbfa38fb-d7f0-46e2-8779-aad1750173a6"
         ],
         "layer": [
             "nepal_hazard - Hazard curves"
@@ -208,7 +208,7 @@
     "model": "webmap.layermetadata",
     "fields": {
         "metadata_ptr": [
-            "4c492f9f-4f9d-46ce-996e-00615dd55163"
+            "78374a5a-ffec-431b-a053-dd6754cc2545"
         ],
         "layer": [
             "nepal_hazard - UHS PoE 0.01"
@@ -221,7 +221,7 @@
     "model": "webmap.layermetadata",
     "fields": {
         "metadata_ptr": [
-            "cb97a306-dfb9-4a53-8c49-724e34757869"
+            "d543c192-59a1-4cc0-9a2c-553b3b96bf9d"
         ],
         "layer": [
             "nepal_hazard - UHS PoE 0.02"
@@ -234,7 +234,7 @@
     "model": "webmap.layermetadata",
     "fields": {
         "metadata_ptr": [
-            "fe5b8196-8720-487b-a0d1-66caddd2cc67"
+            "bca47294-31ef-4d6e-9ca7-650c595ee80e"
         ],
         "layer": [
             "nepal_hazard - Hazard map (mean)"
@@ -247,7 +247,7 @@
     "model": "webmap.layermetadata",
     "fields": {
         "metadata_ptr": [
-            "c67ac94c-d317-468f-b13a-8d1c228496e8"
+            "0eb5a0cb-36e7-41b6-821e-fbef119cb722"
         ],
         "layer": [
             "nepal_hazard - Hazard map (max)"
@@ -271,7 +271,7 @@
         "in_legend": false,
         "in_thumbnail": false,
         "interactivity_type": [
-            "HTML table"
+            "OpenQuake Exposure GEM Taxonomy Data"
         ],
         "group": "Hazard curves and UHS",
         "excl_group": 1
@@ -292,7 +292,7 @@
         "in_legend": true,
         "in_thumbnail": false,
         "interactivity_type": [
-            "HTML table"
+            "OpenQuake Exposure GEM Taxonomy Data"
         ],
         "group": "Hazard maps",
         "excl_group": 2
@@ -313,7 +313,7 @@
         "in_legend": true,
         "in_thumbnail": true,
         "interactivity_type": [
-            "HTML table"
+            "OpenQuake Exposure GEM Taxonomy Data"
         ],
         "group": "Hazard maps",
         "excl_group": 2
@@ -334,7 +334,7 @@
         "in_legend": false,
         "in_thumbnail": false,
         "interactivity_type": [
-            "HTML table"
+            "OpenQuake Exposure GEM Taxonomy Data"
         ],
         "group": "Hazard curves and UHS",
         "excl_group": 1
@@ -355,7 +355,7 @@
         "in_legend": false,
         "in_thumbnail": false,
         "interactivity_type": [
-            "HTML table"
+            "OpenQuake Exposure GEM Taxonomy Data"
         ],
         "group": "Hazard curves and UHS",
         "excl_group": 1

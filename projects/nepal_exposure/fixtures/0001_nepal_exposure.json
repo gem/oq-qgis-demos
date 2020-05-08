@@ -9,7 +9,7 @@
         "changed_by": [
             "admin"
         ],
-        "changed_date": "2020-05-08T12:50:03.140Z",
+        "changed_date": "2020-05-08T15:26:07.188Z",
         "name": "Nepal Exposure data",
         "slug": "nepal-exposure-data",
         "order": 2,
@@ -47,29 +47,31 @@
     }
 },
 {
-    "model": "mapserver.projectmetadata",
+    "model": "portal.metadata",
     "fields": {
-        "metadata_ptr": [
-            "41ada8cf-85b3-4db2-badf-3477da964e50"
-        ],
-        "project": [
-            "nepal_exposure"
-        ],
-        "categories": [
-            [
-                "risk"
-            ],
-            [
-                "exposure"
-            ]
-        ],
+        "uuid": "07c8d247-c0cd-47a8-bc99-87f305f8970b",
+        "abstract": "",
+        "citation": "",
+        "edition": "",
+        "purpose": "",
+        "restrictions": "",
+        "legal": "",
+        "temporal_extent_from": null,
+        "temporal_extent_to": null,
+        "coverage": "",
+        "license": null,
+        "publication_date": null,
+        "contact": null,
+        "doi": "",
+        "xml": "",
+        "categories": [],
         "contributors": []
     }
 },
 {
     "model": "portal.metadata",
     "fields": {
-        "uuid": "41ada8cf-85b3-4db2-badf-3477da964e50",
+        "uuid": "e7f62bf3-771c-4e3d-b6ea-51a301f0a25b",
         "abstract": "<p><a href=\"https://github.com/gem/oq-engine\">OpenQuake Engine</a> demo for Nepal.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer massa dolor, laoreet id lectus a, ullamcorper ultrices sem. Cras id porttitor purus. Fusce mattis tempor mauris non sodales. Pellentesque a dapibus sem, quis dictum arcu. Nunc vestibulum libero id erat vestibulum aliquet. Integer nec elit at enim dapibus molestie. Nam ornare urna at ornare scelerisque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ac dolor vitae enim molestie pretium. Maecenas sed urna ultricies, cursus nunc id, lacinia lorem. Nunc non sodales nulla. Donec ornare, dolor eget efficitur aliquam, turpis quam sollicitudin mauris, quis suscipit mi tellus sed enim. Sed porttitor condimentum lacus, in faucibus ipsum hendrerit vestibulum. Ut fringilla orci at sem dapibus, ut interdum tellus malesuada.</p>",
         "citation": "",
         "edition": "",
@@ -100,24 +102,22 @@
     }
 },
 {
-    "model": "portal.metadata",
+    "model": "mapserver.projectmetadata",
     "fields": {
-        "uuid": "17e455c2-0e13-4976-a7ec-323fb05b8cc5",
-        "abstract": "",
-        "citation": "",
-        "edition": "",
-        "purpose": "",
-        "restrictions": "",
-        "legal": "",
-        "temporal_extent_from": null,
-        "temporal_extent_to": null,
-        "coverage": "",
-        "license": null,
-        "publication_date": null,
-        "contact": null,
-        "doi": "",
-        "xml": "",
-        "categories": [],
+        "metadata_ptr": [
+            "e7f62bf3-771c-4e3d-b6ea-51a301f0a25b"
+        ],
+        "project": [
+            "nepal_exposure"
+        ],
+        "categories": [
+            [
+                "risk"
+            ],
+            [
+                "exposure"
+            ]
+        ],
         "contributors": []
     }
 },
@@ -125,7 +125,7 @@
     "model": "webmap.layermetadata",
     "fields": {
         "metadata_ptr": [
-            "17e455c2-0e13-4976-a7ec-323fb05b8cc5"
+            "07c8d247-c0cd-47a8-bc99-87f305f8970b"
         ],
         "layer": [
             "nepal_exposure - Nepal exposure (GEM taxonomy)"
