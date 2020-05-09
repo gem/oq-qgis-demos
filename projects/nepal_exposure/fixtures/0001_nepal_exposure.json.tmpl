@@ -49,7 +49,7 @@
 {
     "model": "portal.metadata",
     "fields": {
-        "uuid": "07c8d247-c0cd-47a8-bc99-87f305f8970b",
+        "uuid": "OBJECTSLT:str:$.*[@.model is 'webmap.layermetadata'][0].fields.metadata_ptr[0]",
         "abstract": "",
         "citation": "",
         "edition": "",
@@ -71,7 +71,7 @@
 {
     "model": "portal.metadata",
     "fields": {
-        "uuid": "e7f62bf3-771c-4e3d-b6ea-51a301f0a25b",
+        "uuid": "OBJECTSLT:str:$.*[@.model is 'mapserver.projectmetadata'][0].fields.metadata_ptr[0]",
         "abstract": "<p><a href=\"https://github.com/gem/oq-engine\">OpenQuake Engine</a> demo for Nepal.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer massa dolor, laoreet id lectus a, ullamcorper ultrices sem. Cras id porttitor purus. Fusce mattis tempor mauris non sodales. Pellentesque a dapibus sem, quis dictum arcu. Nunc vestibulum libero id erat vestibulum aliquet. Integer nec elit at enim dapibus molestie. Nam ornare urna at ornare scelerisque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ac dolor vitae enim molestie pretium. Maecenas sed urna ultricies, cursus nunc id, lacinia lorem. Nunc non sodales nulla. Donec ornare, dolor eget efficitur aliquam, turpis quam sollicitudin mauris, quis suscipit mi tellus sed enim. Sed porttitor condimentum lacus, in faucibus ipsum hendrerit vestibulum. Ut fringilla orci at sem dapibus, ut interdum tellus malesuada.</p>",
         "citation": "",
         "edition": "",
@@ -105,7 +105,7 @@
     "model": "mapserver.projectmetadata",
     "fields": {
         "metadata_ptr": [
-            "e7f62bf3-771c-4e3d-b6ea-51a301f0a25b"
+            "OBJECTSLT:str:$.*[@.model is 'mapserver.projectmetadata'][0].fields.metadata_ptr[0]"
         ],
         "project": [
             "nepal_exposure"
@@ -125,7 +125,7 @@
     "model": "webmap.layermetadata",
     "fields": {
         "metadata_ptr": [
-            "07c8d247-c0cd-47a8-bc99-87f305f8970b"
+            "OBJECTSLT:str:$.*[@.model is 'webmap.layermetadata'][0].fields.metadata_ptr[0]"
         ],
         "layer": [
             "nepal_exposure - Nepal exposure (GEM taxonomy)"

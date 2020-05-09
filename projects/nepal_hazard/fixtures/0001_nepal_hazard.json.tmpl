@@ -49,7 +49,7 @@
 {
     "model": "portal.metadata",
     "fields": {
-        "uuid": "df9901d9-9fc9-42b6-8d97-88099a107767",
+        "uuid": "OBJECTSLT:str:$.*[@.model is 'mapserver.projectmetadata'][0].fields.metadata_ptr[0]",
         "abstract": "",
         "citation": "",
         "edition": "",
@@ -71,7 +71,7 @@
 {
     "model": "portal.metadata",
     "fields": {
-        "uuid": "cbfa38fb-d7f0-46e2-8779-aad1750173a6",
+        "uuid": "OBJECTSLT:str:$.*[@.model is 'webmap.layermetadata' and @.fields.layer[0] is 'nepal_hazard - Hazard curves'][0].fields.metadata_ptr[0]",
         "abstract": "",
         "citation": "",
         "edition": "",
@@ -93,7 +93,7 @@
 {
     "model": "portal.metadata",
     "fields": {
-        "uuid": "78374a5a-ffec-431b-a053-dd6754cc2545",
+        "uuid": "OBJECTSLT:str:$.*[@.model is 'webmap.layermetadata' and @.fields.layer[0] is 'nepal_hazard - UHS PoE 0.01'][0].fields.metadata_ptr[0]",
         "abstract": "",
         "citation": "",
         "edition": "",
@@ -115,7 +115,7 @@
 {
     "model": "portal.metadata",
     "fields": {
-        "uuid": "d543c192-59a1-4cc0-9a2c-553b3b96bf9d",
+        "uuid": "OBJECTSLT:str:$.*[@.model is 'webmap.layermetadata' and @.fields.layer[0] is 'nepal_hazard - UHS PoE 0.02'][0].fields.metadata_ptr[0]",
         "abstract": "",
         "citation": "",
         "edition": "",
@@ -137,7 +137,7 @@
 {
     "model": "portal.metadata",
     "fields": {
-        "uuid": "bca47294-31ef-4d6e-9ca7-650c595ee80e",
+        "uuid": "OBJECTSLT:str:$.*[@.model is 'webmap.layermetadata' and @.fields.layer[0] is 'nepal_hazard - Hazard map (mean)'][0].fields.metadata_ptr[0]",
         "abstract": "",
         "citation": "",
         "edition": "",
@@ -159,7 +159,7 @@
 {
     "model": "portal.metadata",
     "fields": {
-        "uuid": "0eb5a0cb-36e7-41b6-821e-fbef119cb722",
+        "uuid": "OBJECTSLT:str:$.*[@    .model is 'webmap.layermetadata' and @.fields.layer[0] is 'nepal_hazard - Hazard map (max)'][0].fields.metadata_ptr[0]",
         "abstract": "",
         "citation": "",
         "edition": "",
@@ -182,7 +182,7 @@
     "model": "mapserver.projectmetadata",
     "fields": {
         "metadata_ptr": [
-            "df9901d9-9fc9-42b6-8d97-88099a107767"
+            "OBJECTSLT:str:$.*[@.model is 'mapserver.projectmetadata'][0].fields.metadata_ptr[0]"
         ],
         "project": [
             "nepal_hazard"
@@ -195,7 +195,7 @@
     "model": "webmap.layermetadata",
     "fields": {
         "metadata_ptr": [
-            "cbfa38fb-d7f0-46e2-8779-aad1750173a6"
+            "OBJECTSLT:str:$.*[@.model is 'webmap.layermetadata' and @.fields.layer[0] is 'nepal_hazard - Hazard curves'][0].fields.metadata_ptr[0]"
         ],
         "layer": [
             "nepal_hazard - Hazard curves"
@@ -208,7 +208,7 @@
     "model": "webmap.layermetadata",
     "fields": {
         "metadata_ptr": [
-            "78374a5a-ffec-431b-a053-dd6754cc2545"
+            "OBJECTSLT:str:$.*[@.model is 'webmap.layermetadata' and @.fields.layer[0] is 'nepal_hazard - UHS PoE 0.01'][0].fields.metadata_ptr[0]"
         ],
         "layer": [
             "nepal_hazard - UHS PoE 0.01"
@@ -221,7 +221,7 @@
     "model": "webmap.layermetadata",
     "fields": {
         "metadata_ptr": [
-            "d543c192-59a1-4cc0-9a2c-553b3b96bf9d"
+            "OBJECTSLT:str:$.*[@.model is 'webmap.layermetadata' and @.fields.layer[0] is 'nepal_hazard - UHS PoE 0.02'][0].fields.metadata_ptr[0]"
         ],
         "layer": [
             "nepal_hazard - UHS PoE 0.02"
@@ -234,7 +234,7 @@
     "model": "webmap.layermetadata",
     "fields": {
         "metadata_ptr": [
-            "bca47294-31ef-4d6e-9ca7-650c595ee80e"
+            "OBJECTSLT:str:$.*[@.model is 'webmap.layermetadata' and @.fields.layer[0] is 'nepal_hazard - Hazard map (mean)'][0].fields.metadata_ptr[0]"
         ],
         "layer": [
             "nepal_hazard - Hazard map (mean)"
@@ -247,7 +247,7 @@
     "model": "webmap.layermetadata",
     "fields": {
         "metadata_ptr": [
-            "0eb5a0cb-36e7-41b6-821e-fbef119cb722"
+            "OBJECTSLT:str:$.*[@    .model is 'webmap.layermetadata' and @.fields.layer[0] is 'nepal_hazard - Hazard map (max)'][0].fields.metadata_ptr[0]"
         ],
         "layer": [
             "nepal_hazard - Hazard map (max)"
