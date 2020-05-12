@@ -159,7 +159,7 @@
 {
     "model": "portal.metadata",
     "fields": {
-        "uuid": "OBJECTSLT:str:$.*[@    .model is 'webmap.layermetadata' and @.fields.layer[0] is 'nepal_hazard - Hazard map (max)'][0].fields.metadata_ptr[0]",
+        "uuid": "OBJECTSLT:str:$.*[@.model is 'webmap.layermetadata' and @.fields.layer[0] is 'nepal_hazard - Hazard map (max)'][0].fields.metadata_ptr[0]",
         "abstract": "",
         "citation": "",
         "edition": "",
@@ -247,7 +247,7 @@
     "model": "webmap.layermetadata",
     "fields": {
         "metadata_ptr": [
-            "OBJECTSLT:str:$.*[@    .model is 'webmap.layermetadata' and @.fields.layer[0] is 'nepal_hazard - Hazard map (max)'][0].fields.metadata_ptr[0]"
+            "OBJECTSLT:str:$.*[@.model is 'webmap.layermetadata' and @.fields.layer[0] is 'nepal_hazard - Hazard map (max)'][0].fields.metadata_ptr[0]"
         ],
         "layer": [
             "nepal_hazard - Hazard map (max)"
