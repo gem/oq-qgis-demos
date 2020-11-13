@@ -1,6 +1,7 @@
 *.qgs~
 *.zip
 *.swp
-projects/*/fixtures/*.json
-projects/*/fixtures/*.json.orig
-projects/*/*_prj_dump.json
+/projects/*/fixtures/*.json
+/projects/*/fixtures/*.json.orig
+/projects/*/*_prj_dump.json
+/projects/*/curl.out
