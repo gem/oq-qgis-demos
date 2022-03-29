@@ -6,26 +6,16 @@
         "site_name": "Map viewer",
         "site_logo": "site/gem_logo.png",
         "site_author": "GEM Foundation",
-        "about": "",
-        "footer": "<p><a href=\"https://gem.foundation\">GEM Foundation</a> and Partners.\r\nThis is a demo site. Data not suitable for production.</p>",
-        "show_copyright": true,
+        "homepage_content": "\n<h1 style=\"text-align:center\">Published maps</h1>\n",
+        "footer": "<p><a href=\"https://gem.foundation\"><img alt=\"\" src=\"/media/site/gem_logo.png\" style=\"float:left; height:15px; margin:5px; width:61px\" />GEM Foundation</a>. <a href=\"/cookies/\">Cookies</a>. <a href=\"https://www.globalquakemodel.org/terms-of-use\">Terms of use</a>.</p>",
         "common_js": "common/js/common.js",
-        "common_css": "",
-        "map_zoom_default": 5,
-        "map_zoom_min": 4,
-        "map_zoom_max": 15,
-        "map_zoom_control": true,
-        "map_scale": true,
-        "map_geolocator": true,
-        "map_measures": true,
-        "map_legend_font_size": 10,
-        "map_printable": false,
-        "print_legend_scaling": 50,
-        "print_logo_scaling": 30,
-        "global_watermark": null
+        "map_zoom_default": 4,
+        "map_zoom_min": 2,
+        "map_zoom_max": 6,
+        "show_version": true,
+        "quick_reference": "<h5>FIXMEQuick Reference</h5>\r\n<ul>\r\n    <li>use the\r\n        <button type=\"button\" class=\"btn btn-sm btn-outline-light dropdown-toggle\"\r\n                data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"\r\n                style=\"background-color: #353a40;\">\r\n            <strong>Username</strong>\r\n        </button>\r\n        button in the header to access user-related functionalities\r\n    </li>\r\n    <li>click an item in the map to visualize the corresponding data</li>\r\n    <li>use the\r\n            <button class=\"easy-button-button leaflet-bar-part leaflet-interactive show-info-active\"\r\n                    type=\"button\" id=\"map-info-btn\" title=\"Show map information panel\"\r\n                    style=\"background-color: white; border-color: rgba(0, 0, 0, 0.2);\">\r\n                <span class=\"button-state state-show-info show-info-active\">\r\n                    <span class=\"fa fa-angle-down\"></span>\r\n                </span>\r\n            </button>\r\n        button in the top-right corner of the map to visualize the map description\r\n    </li>\r\n    <li>drag the horizontal rule above to resize the information panes</li>\r\n    <li>click on the title of an information section to hide/show its content:\r\n        <div class=\"metadata-accordion\">\r\n            <div class=\"card\">\r\n                <div class=\"card-header\">\r\n                    <h5 class=\"mb-0 gem-quickref\">\r\n                        <button class=\"btn btn-link\" data-toggle=\"collapse\" aria-expanded=\"false\">\r\n                            Information section<span name=\"collapse-status\" class=\"fa fa-angle-down\"></span>\r\n                        </button>\r\n                    </h5>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </li>\r\n    <li>Click on the following widget controls to show/hide the map Layers and Legend:\r\n        <div class=\"leaflet-control-layers gem-quickref\">\r\n            <h4 class=\"closed\"><div class=\"control-layers-caret\"></div><span class=\"\">Layers / Legend</span></h4>\r\n        </div>\r\n        </li>\r\n    <li>Search for place names using the Search box:\r\n        <div class=\"leaflet-container\">\r\n            <div class=\"leaflet-control-container\">\r\n                <div class=\"leaflet-top leaflet-right\" style=\"position: relative; float: left; margin-left: 4px\"> \r\n                    <div class=\"leaflet-control-geocoder leaflet-bar leaflet-control-geocoder-expanded leaflet-control\" style=\"margin-bottom: 4px;\">\r\n                        <button class=\"leaflet-control-geocoder-icon\" type=\"button\" aria-label=\"Initiate a new search\">\r\n                            &nbsp;\r\n                        </button>\r\n                        <div class=\"leaflet-control-geocoder-form\">\r\n                            <input class=\"\" type=\"text\" placeholder=\"Search...\" readonly>\r\n                        </div>\r\n                        <div class=\"leaflet-control-geocoder-form-no-error\">\r\n                            Nothing found.\r\n                        </div>\r\n                        <ul class=\"leaflet-control-geocoder-alternatives leaflet-control-geocoder-alternatives-minimized\">\r\n                        </ul>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </li>\r\n</ul>"
     }
 },
-
 {
     "model": "portal.organization",
     "pk": 1,
