@@ -5,3 +5,4 @@
 /projects/*/fixtures/*.json.orig
 /projects/*/*_prj_dump.json
 /projects/*/curl.out
+/projects/*/curl.headers
